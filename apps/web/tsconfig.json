@@ -1,0 +1,10 @@
+{
+  "extends": "@family-photos/typescript-config/vite.json",
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

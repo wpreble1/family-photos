@@ -1,0 +1,14 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": [
+    "**/.env.*local"
+  ],
+  "pipeline": {
+    "lint": {},
+    "lint:fix": {},
+    "dev": {
+      "cache": false
+    },
+    "tsc": {}
+  }
+}

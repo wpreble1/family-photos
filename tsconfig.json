@@ -1,0 +1,3 @@
+{
+  "extends": "@family-photos/typescript-config/base.json"
+}

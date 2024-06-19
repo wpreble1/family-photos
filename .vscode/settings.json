@@ -1,0 +1,16 @@
+{
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": "explicit",
+        "source.addMissingImports": "always",
+        "source.organizeImports": "always"
+    },
+    "eslint.workingDirectories": [
+        {
+            "mode": "auto"
+        }
+    ],
+    "typescript.preferences.autoImportFileExcludePatterns": [
+        "ui/*.ts"
+    ]
+}

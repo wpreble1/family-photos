@@ -1,0 +1,22 @@
+{
+    "name": "@family-photos/family-photos",
+    "private": true,
+    "scripts": {
+        "build": "turbo build",
+        "dev": "turbo dev",
+        "lint": "turbo lint",
+        "lint:fix": "turbo lint:fix",
+        "tsc": "turbo tsc"
+    },
+    "devDependencies": {
+        "@family-photos/eslint-config": "workspace:*",
+        "@family-photos/typescript-config": "workspace:*",
+        "turbo": "^1.13.3",
+        "typescript": "^5.4.5",
+        "vite": "^5.2.12"
+    },
+    "packageManager": "pnpm@9.1.4",
+    "engines": {
+        "node": ">=20"
+    }
+}
